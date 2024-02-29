@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-29T20:38:33 BDT" name="Default suite" finished-at="2024-02-29T20:39:23 BDT" duration-ms="49503">
+    <groups>
+    </groups>
+    <test started-at="2024-02-29T20:38:33 BDT" name="Default test" finished-at="2024-02-29T20:39:23 BDT" duration-ms="49503">
+      <class name="firstTest.LoginTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:firstTest.LoginTest@74235045]" started-at="2024-02-29T20:38:34 BDT" name="launchBrowser" finished-at="2024-02-29T20:38:39 BDT" duration-ms="5150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:firstTest.LoginTest@74235045]" started-at="2024-02-29T20:38:39 BDT" name="login" data-provider="userData" finished-at="2024-02-29T20:38:44 BDT" duration-ms="4341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="after()[pri:0, instance:firstTest.LoginTest@74235045]" started-at="2024-02-29T20:38:44 BDT" name="after" finished-at="2024-02-29T20:38:44 BDT" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:firstTest.LoginTest@74235045]" started-at="2024-02-29T20:38:44 BDT" name="launchBrowser" finished-at="2024-02-29T20:38:46 BDT" duration-ms="2468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:firstTest.LoginTest@74235045]" started-at="2024-02-29T20:38:46 BDT" name="login" data-provider="userData" finished-at="2024-02-29T20:38:51 BDT" duration-ms="4289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="after()[pri:0, instance:firstTest.LoginTest@74235045]" started-at="2024-02-29T20:38:51 BDT" name="after" finished-at="2024-02-29T20:38:51 BDT" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:firstTest.LoginTest@74235045]" started-at="2024-02-29T20:38:51 BDT" name="launchBrowser" finished-at="2024-02-29T20:38:53 BDT" duration-ms="2568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:firstTest.LoginTest@74235045]" started-at="2024-02-29T20:38:53 BDT" name="login" data-provider="userData" finished-at="2024-02-29T20:38:58 BDT" duration-ms="4369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="after()[pri:0, instance:firstTest.LoginTest@74235045]" started-at="2024-02-29T20:38:58 BDT" name="after" finished-at="2024-02-29T20:38:58 BDT" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:firstTest.LoginTest@74235045]" started-at="2024-02-29T20:38:58 BDT" name="launchBrowser" finished-at="2024-02-29T20:38:59 BDT" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:firstTest.LoginTest@74235045]" started-at="2024-02-29T20:38:59 BDT" name="login" data-provider="userData" finished-at="2024-02-29T20:39:09 BDT" duration-ms="10204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="after()[pri:0, instance:firstTest.LoginTest@74235045]" started-at="2024-02-29T20:39:09 BDT" name="after" finished-at="2024-02-29T20:39:09 BDT" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:firstTest.LoginTest@74235045]" started-at="2024-02-29T20:39:09 BDT" name="launchBrowser" finished-at="2024-02-29T20:39:12 BDT" duration-ms="2212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:firstTest.LoginTest@74235045]" started-at="2024-02-29T20:39:12 BDT" name="login" data-provider="userData" finished-at="2024-02-29T20:39:16 BDT" duration-ms="4343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="after()[pri:0, instance:firstTest.LoginTest@74235045]" started-at="2024-02-29T20:39:16 BDT" name="after" finished-at="2024-02-29T20:39:16 BDT" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:firstTest.LoginTest@74235045]" started-at="2024-02-29T20:39:16 BDT" name="launchBrowser" finished-at="2024-02-29T20:39:18 BDT" duration-ms="2172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:firstTest.LoginTest@74235045]" started-at="2024-02-29T20:39:18 BDT" name="login" data-provider="userData" finished-at="2024-02-29T20:39:23 BDT" duration-ms="4328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="after()[pri:0, instance:firstTest.LoginTest@74235045]" started-at="2024-02-29T20:39:23 BDT" name="after" finished-at="2024-02-29T20:39:23 BDT" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- firstTest.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
